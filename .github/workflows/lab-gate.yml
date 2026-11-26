@@ -5,7 +5,7 @@ on:
 permissions: {}
 jobs:
   gate:
-    name: sentinel-lab-gate
+    name: sentinel-lab-alternate
     runs-on: ubuntu-latest
     steps:
       - run: exit 0

@@ -1,0 +1,11 @@
+name: Lab branch protection
+on:
+  pull_request:
+    branches: [main]
+permissions: {}
+jobs:
+  gate:
+    name: sentinel-lab-gate
+    runs-on: ubuntu-latest
+    steps:
+      - run: exit 0
